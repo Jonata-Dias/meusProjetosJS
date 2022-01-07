@@ -1,0 +1,13 @@
+
+body{
+    background: #555;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    width: 80px;
+}

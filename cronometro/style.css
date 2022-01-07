@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 80px;
+    padding: 30px;
+}
+.container {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #000;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cronometro {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+button {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #777;
+}
+button:hover {
+    background-color: #999;
+    cursor: pointer;
+}
+    
+
+
+button.start{
+    color: #0f0;
+}
+button.stop {
+    color: #f00;
+}
+button.reset {
+    color: #fff;
+}
